@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+	<head>		
+		<title id="pagetitle">Jogo</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> <!--Declaração do webfont Loader (para poder pegar fontes da biblioteca do google)-->
+		<link href="jogo.css" type="text/css" rel="stylesheet">
+		<script src="classGlobal.js"></script>
+		<script src="classGameObject.js"></script>
+		<script src="classRectCollider.js"></script>
+		<script src="classStage.js"></script>
+		<script src="classPlayer.js"></script>
+		<script src="classTile.js"></script>
+		<script src="classPlatformTile.js"></script>
+		<script src="classWinningTile.js"></script>
+		<script src="classFakeTile.js"></script>
+		<script src="classOnOffTile.js"></script>
+		<script src="classReverseGravityTile.js"></script>	
+		<script src="classSpeedChangerTile.js"></script>
+		<script src="classKillTile.js"></script>	
+		<script src="classButton.js"></script>
+		<script src="game.js"></script>
+		<script src="menu.js"></script>
+	</head>
+	
+	<body onload="initPage(); startMusic();" onresize="resize_canvas();">
+		<canvas id="gameCanvas"></canvas>
+			
+			<div id="URLbox">
+				<input 
+					id="input_URL" 
+					type="textbox"
+					class="textbox"
+					type="text" 
+					value="https://soundcloud.com/warrage/the-fatrat-unity"
+				/>
+			</div>
+
+	</body>
+	
+</html>
